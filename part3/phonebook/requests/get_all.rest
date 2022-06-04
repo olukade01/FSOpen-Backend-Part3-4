@@ -1,0 +1,24 @@
+@URL = http://localhost:3001
+
+GET {{URL}}/api/persons/
+
+###
+POST {{URL}}/api/persons
+Content-Type: application/json
+
+{
+  "name": "",
+  "number": "99-7749"
+}
+
+###
+PUT {{URL}}/api/persons/6207a349acecedc058f81b0b
+Content-Type: application/json
+
+{
+  "name": "ajao",
+  "number": "99-7549-9552"
+}
+
+###
+DELETE {{URL}}/api/persons/62079166e5ee70447caae8a8
