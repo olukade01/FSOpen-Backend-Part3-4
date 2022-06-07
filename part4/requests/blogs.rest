@@ -1,0 +1,26 @@
+@URL = http://localhost:3004/api/blogs/
+
+GET {{URL}}/6210d2ecefb2d4312f81a524/comments
+
+###
+POST {{URL}}/6210d2ecefb2d4312f81a524/comments
+Content-Type: application/json
+# Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im11aGFtbWFkIiwiaWQiOiI2MjEwZDI2YmVmYjJkNDMxMmY4MWE1MGEiLCJpYXQiOjE2NDUyNzQ2MTksImV4cCI6MTY0NTI3ODIxOX0.CXuVknTPfO6v9Nwhxwzy60xXTrdl-Oyjd_QxNEFSBNo
+
+# {
+#   "title": "no more testing",
+#   "author": "user",
+#   "url": "warisi"
+# }
+
+{
+  "comment" : "say no moreuu"
+}
+
+###
+PUT {{URL}}/6208e3431cede7e12660cc95
+Content-Type: application/json
+
+###
+DELETE {{URL}}/6210db40bb28d04fc7882ed5
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im11aGFtbWFkIiwiaWQiOiI2MjEwZDI2YmVmYjJkNDMxMmY4MWE1MGEiLCJpYXQiOjE2NDUyNzQ2MTksImV4cCI6MTY0NTI3ODIxOX0.CXuVknTPfO6v9Nwhxwzy60xXTrdl-Oyjd_QxNEFSBNo
